@@ -5,35 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="go study">
-      <change afterPath="$PROJECT_DIR$/errno/code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/errno/errno.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/errno/errno_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/crc/crc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/func/func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/func/func_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/hash/hash.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/helper/helper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/mid/mid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/mid/mid_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/response/response.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/sm2/sm2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/timeUtil/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/timeUtil/time_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/timeUtil/timestamp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/deflate_utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/file_utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/float_utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/http_utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/md5_util.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/stack_utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/targz.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils/utils_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/1-fileTran.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/1-fileTran/4-fileGetTran.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/1-fileTran/conndata/data.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/json-to-map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/json-to-struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/map-to-json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/map-to-struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/struct-to-json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/3-jsonmapsturct/zhuanhuan/text/struct-to-map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/1-fileTranServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/1-fileTranServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +64,13 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "configurable..is.expanded": "false",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/卡米の眷顾",
+    "last_opened_file_path": "E:/GoSrc/Github/GoStudy/study2/3-jsonmapsturct",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,26 +80,29 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GoSrc\Github\GoStudy\study2\3-jsonmapsturct" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GoSrc\Github\GoStudy" />
       <recent name="E:\GoSrc\Github\GoStudy\study2\1-fileTran" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 3-fileGet.go">
+  <component name="RunManager" selected="Go Build.go build gostudy/study2/1-fileTran (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 1-degui.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/study2/2-degui/1-degui.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1-fileTranServer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/1-fileTranServer.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 2-fileTranClient.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -132,12 +121,40 @@
       <filePath value="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gostudy/study2/1-fileTran (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="gostudy/study2/1-fileTran" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study2/1-fileTran" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="gostudy/study2/1-fileTran" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/1-fileTran/1-fileTranServer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/study2/1-fileTran (1)" />
+        <item itemvalue="Go Build.go build gostudy/study2/1-fileTran" />
         <item itemvalue="Go Build.go build 3-fileGet.go" />
         <item itemvalue="Go Build.go build 1-degui.go" />
         <item itemvalue="Go Build.go build 2-fileTranClient.go" />
-        <item itemvalue="Go Build.go build 1-fileTranServer.go" />
       </list>
     </recent_temporary>
   </component>
