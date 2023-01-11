@@ -160,6 +160,7 @@ func StringToBytesCustomLen(gatewayId string, byteLength int) ([]byte, error) {
 	}
 }
 
+//uint16转数组
 func Uint16ToBytes(value ...uint16) []byte {
 	data := make([]byte, 2*len(value))
 	for i, v := range value {
