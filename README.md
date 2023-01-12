@@ -15,3 +15,7 @@ StrToBytes只需要构建[3]uintptr{ptr,len,len}
 BytesToStr直接转换类型
 
 ##### 2.uint16转数组 --Uint16ToBytes--
+
+##### 3.文件操作  
+
+压缩文件，复制文件，解压文件

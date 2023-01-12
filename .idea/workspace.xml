@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="go study">
-      <change afterPath="$PROJECT_DIR$/study2/4-chan/chan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/6-rand/1-rand.Reader/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/1-os.OpenFile/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/2-os.Open/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/3-os.Stat/main.go" afterDir="false" />
+    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="os,io">
+      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.Contains/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.LastIndex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.NewReader/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/7-os/4-os.MkdirAll/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/7-os/5-os.Remove/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/8-ioutil/ioutil.ReadDir/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/types/type.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,112 +52,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "E:/GoSrc/Github/GoStudy/study2/3-jsonmapsturct",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "go.vgo",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/GoSrc/Github/GoStudy/study2/3-jsonmapsturct&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GoSrc\Github\GoStudy\study2\3-jsonmapsturct" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoSrc\Github\GoStudy\study2\9-bufio\bufio.NewReader" />
       <recent name="E:\GoSrc\Github\GoStudy\study2" />
       <recent name="E:\GoSrc\Github\GoStudy" />
       <recent name="E:\GoSrc\Github\GoStudy\study2\1-fileTran" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study2/7-os/3-os.Stat">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/5-io/1-ReadFull" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/study2/8-ioutil/ioutil.ReadDir">
+    <configuration name="go build gostudy/study2/10-strings/strings.Contains" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/5-io/1-ReadFull" />
+      <package value="gostudy/study2/10-strings/strings.Contains" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/5-io/1-ReadFull/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/10-strings/strings.Contains/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study2/5-io/1-io.ReadFull" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/10-strings/strings.Index" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/5-io/1-io.ReadFull" />
+      <package value="gostudy/study2/10-strings/strings.Index" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study2/7-os/1-os.OpenFile" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/10-strings/strings.LastIndex" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/7-os/1-os.OpenFile" />
+      <package value="gostudy/study2/10-strings/strings.LastIndex" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/7-os/1-os.OpenFile/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/10-strings/strings.LastIndex/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study2/7-os/2-os.Open" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/8-ioutil/ioutil.ReadDir" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/7-os/2-os.Open" />
+      <package value="gostudy/study2/8-ioutil/ioutil.ReadDir" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/7-os/2-os.Open/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/8-ioutil/ioutil.ReadDir/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study2/7-os/3-os.Stat" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/9-bufio/bufio.NewReader" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/7-os/3-os.Stat" />
+      <package value="gostudy/study2/9-bufio/bufio.NewReader" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/7-os/3-os.Stat/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <filePath value="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gostudy/study2/7-os/3-os.Stat" />
-        <item itemvalue="Go Build.go build gostudy/study2/7-os/2-os.Open" />
-        <item itemvalue="Go Build.go build gostudy/study2/7-os/1-os.OpenFile" />
-        <item itemvalue="Go Build.go build gostudy/study2/5-io/1-io.ReadFull" />
-        <item itemvalue="Go Build.go build gostudy/study2/5-io/1-ReadFull" />
+        <item itemvalue="Go Build.go build gostudy/study2/8-ioutil/ioutil.ReadDir" />
+        <item itemvalue="Go Build.go build gostudy/study2/9-bufio/bufio.NewReader" />
+        <item itemvalue="Go Build.go build gostudy/study2/10-strings/strings.Index" />
+        <item itemvalue="Go Build.go build gostudy/study2/10-strings/strings.Contains" />
+        <item itemvalue="Go Build.go build gostudy/study2/10-strings/strings.LastIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="go study" />
-    <option name="LAST_COMMIT_MESSAGE" value="go study" />
+    <MESSAGE value="os,io" />
+    <option name="LAST_COMMIT_MESSAGE" value="os,io" />
   </component>
   <component name="VgoProject">
     <environment>
@@ -185,5 +173,16 @@
       </map>
     </environment>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/study2/8-ioutil/ioutil.ReadDir/main.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
