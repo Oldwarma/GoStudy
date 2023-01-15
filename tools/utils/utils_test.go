@@ -31,12 +31,12 @@ func TestBytes2Str(t *testing.T) {
 }
 
 func TestUnTarGzPack(t *testing.T) {
-	_, err := UnTarGzPack("D:/cproject/11.tar.gz")
+	_, err := UnTarGzPack("D:/ep/11.tar.gz")
 	fmt.Println(err)
 }
 
 func TestCompress(t *testing.T) {
-	CompressOneFile("D:/cep/agent/dc.exe", "D:\\cproject\\11.tar.gz")
+	CompressOneFile("D:/cep/text", "D:\\cep\\11.tar.gz")
 }
 
 func TestGenerateArchiveFile(t *testing.T) {

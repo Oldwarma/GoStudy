@@ -10,6 +10,7 @@ func main() {
 	contains()
 }
 
+//Go
 func contains() {
 	ok := strings.Contains("1321321321/4654654/asdasd/", "*")
 	fmt.Println(ok)
