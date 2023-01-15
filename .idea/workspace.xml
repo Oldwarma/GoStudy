@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="file">
-      <change afterPath="$PROJECT_DIR$/study1/1-copy/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/10-rand/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/11-function/anonymous/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/11-function/bibao/bibao2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/11-function/funFun/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/12-assertion/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/13-swtich.assert/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/14-reflect/reflect/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/2-sort.Slice/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/3-iota/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/4-pointer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/5-time/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/6-yuanzu/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/7-string/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/8-cache/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/9-tree/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.Fields/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/10-strings/strings.a/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/11-strconv/strconv.Atoi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/6-os.Args/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/9-bufio/bufio.NewScanner/main.go" afterDir="false" />
+    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="weekend study">
+      <change afterPath="$PROJECT_DIR$/study1/14-reflect/advReflect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/15-flag/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study1/11-function/bibao/bibao1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/1-fileTran.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/10-strings/strings.Contains/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/10-strings/strings.Contains/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/utils/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/utils/utils_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,25 +81,7 @@
       <recent name="E:\GoSrc\Github\GoStudy\study\fuction" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study1/14-reflect">
-    <configuration name="go build gostudy/study1/11-function/bibao/bibao2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/11-function/bibao/bibao2" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/11-function/bibao/bibao2/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study1/11-function/funFun" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/11-function/funFun" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/11-function/funFun/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gostudy/study1/15-flag">
     <configuration name="go build gostudy/study1/12-assertion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -150,13 +109,31 @@
       <filePath value="$PROJECT_DIR$/study1/14-reflect/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gostudy/study1/14-reflect/reflect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/14-reflect/reflect" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/14-reflect/reflect/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/15-flag" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/15-flag" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/15-flag/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/study1/15-flag" />
+        <item itemvalue="Go Build.go build gostudy/study1/14-reflect/reflect" />
         <item itemvalue="Go Build.go build gostudy/study1/14-reflect" />
         <item itemvalue="Go Build.go build gostudy/study1/13-swtich.assert" />
         <item itemvalue="Go Build.go build gostudy/study1/12-assertion" />
-        <item itemvalue="Go Build.go build gostudy/study1/11-function/funFun" />
-        <item itemvalue="Go Build.go build gostudy/study1/11-function/bibao/bibao2" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +157,8 @@
     <MESSAGE value="go study" />
     <MESSAGE value="os,io" />
     <MESSAGE value="file" />
-    <option name="LAST_COMMIT_MESSAGE" value="file" />
+    <MESSAGE value="weekend study" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekend study" />
   </component>
   <component name="VgoProject">
     <environment>
