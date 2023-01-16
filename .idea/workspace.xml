@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="weekend study">
-      <change afterPath="$PROJECT_DIR$/study1/14-reflect/advReflect/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/15-flag/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/4-chan/chan2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/4-chan/chan3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/4-chan/chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,41 +75,14 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\3-jsonmapsturct" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoSrc\Github\GoStudy\study2\4-chan\chan1" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\14-reflect\reflect" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\11-function\bibao\bibao1" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\11-function\anonymous" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\11-function" />
-      <recent name="E:\GoSrc\Github\GoStudy\study\fuction" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study1/15-flag">
-    <configuration name="go build gostudy/study1/12-assertion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/12-assertion" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/12-assertion/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study1/13-swtich.assert" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/13-swtich.assert" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/13-swtich.assert/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study1/14-reflect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/14-reflect" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/14-reflect/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gostudy/study2/4-chan/chan3">
     <configuration name="go build gostudy/study1/14-reflect/reflect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -127,13 +101,40 @@
       <filePath value="$PROJECT_DIR$/study1/15-flag/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gostudy/study2/4-chan/chan1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study2/4-chan/chan1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study2/4-chan/chan2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study2/4-chan/chan2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/4-chan/chan2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study2/4-chan/chan3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study2/4-chan/chan3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/4-chan/chan3/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/study2/4-chan/chan3" />
+        <item itemvalue="Go Build.go build gostudy/study2/4-chan/chan2" />
+        <item itemvalue="Go Build.go build gostudy/study2/4-chan/chan1" />
         <item itemvalue="Go Build.go build gostudy/study1/15-flag" />
         <item itemvalue="Go Build.go build gostudy/study1/14-reflect/reflect" />
-        <item itemvalue="Go Build.go build gostudy/study1/14-reflect" />
-        <item itemvalue="Go Build.go build gostudy/study1/13-swtich.assert" />
-        <item itemvalue="Go Build.go build gostudy/study1/12-assertion" />
       </list>
     </recent_temporary>
   </component>
