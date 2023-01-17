@@ -20,7 +20,7 @@ func newReader() {
 		fmt.Println("打开文件失败")
 	}
 	defer file.Close()
-	bufReader := bufio.NewReader(file) //io流，读取文件
+	bufReader := bufio.NewReader(file) //io流，读取文件 打开文件
 	var buf [1024]byte
 	for {
 		n, err := bufReader.Read(buf[:])

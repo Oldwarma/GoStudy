@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./pb";
+message  Doc {
+  uint32 doc_id = 1;
+  string position = 2;
+  string company = 3;
+  string city = 4;
+  int32 school_level = 5;
+  bool vip = 6;
+  bool chat = 7;
+  int32 active = 8;
+  int32 work_age=9;
+}
