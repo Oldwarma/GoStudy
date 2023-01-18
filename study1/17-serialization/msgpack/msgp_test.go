@@ -24,7 +24,8 @@ func init() {
 		Name: "Test",
 	}
 
-	msg2000.Body = "wcaonima"
+	msg2000.Body = "wcaonima\"devDateTime\":\"2022-12-28 16:49:37.597\",\n\"softVersion\":\"4.11.3\",\n\"phy\":\"3844\",\n\"distro\":\"Linaro\",\n\"virt\":\"0\",\n\"cpus\":\"6\",\n\"kernel\":\"4.4.194\",\n\"devStDateTime\":\"2022-12-2714:39:00.000\",\n\"temLow\":\"55\",\n\"version\":\"4.4.194\",\n\"frequency\":\"1.42\",\n\"temHigh\":\"66\",\n\"edgeId\":\"00010002000300040005011\",\n\"disk\":\"14047\",\n\"diskLmt\":\"5\",\n\"devRunTime\":\"94237\",\n\"tempValue\":\"30.00\",\n\"cpuRate\":\"15.55\",\n\"diskUsed\":" +
+		"\"82.02\",\n\"arch\":\"arm\",\n\"cpuLmt\":\"5\",\n\"memUsed\":\"0.33\",\n\"memLmt\":\"5\",\n\"status\":\"0\""
 	msg100 = message{
 		Code: 2,
 		Name: "Test",
