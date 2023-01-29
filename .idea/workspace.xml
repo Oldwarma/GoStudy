@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="2 study">
-      <change afterPath="$PROJECT_DIR$/study1/19-UserId/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/13-sync/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/7-os.Mode/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/7-os/8-os.Signal/main.go" afterDir="false" />
+    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="3 study">
+      <change afterPath="$PROJECT_DIR$/study1/20-chan/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/21-GMP/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/22-chanchan/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/23-timechan/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/24-monitor/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/25-context/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/26-advContext/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/27-workerPool/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study1/28-net/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/13-sync/sync.mutex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/13-sync/sync.rwmutex/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/17-serialization/msgpack/msgp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/study1/17-serialization/msgpack/msgp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/13-sync/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/13-sync/sync.WaitGroup/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,69 +84,83 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\3-jsonmapsturct" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync" />
+      <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync\sync.WaitGroup" />
       <recent name="E:\GoSrc\Github\GoStudy\study2\4-chan\chan1" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\14-reflect\reflect" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\11-function\bibao\bibao1" />
-      <recent name="E:\GoSrc\Github\GoStudy\study1\11-function\anonymous" />
-      <recent name="E:\GoSrc\Github\GoStudy\study1\11-function" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study2/13-sync">
-    <configuration name="go build gostudy/study1/19-UserId" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/study1/28-net">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/19-UserId" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/19-UserId/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/13-sync" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study2/13-sync" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/13-sync/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/7-os/7-os.Mode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study2/7-os/7-os.Mode" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/7-os/7-os.Mode/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/7-os/8-os.Signal" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study2/7-os/8-os.Signal" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/7-os/8-os.Signal/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Benchmark_JsonMarshal in gostudy/study1/17-serialization/msgpack (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$/study1/17-serialization/msgpack" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study1/17-serialization/msgpack" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmark_JsonMarshal\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/24-monitor" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/24-monitor" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/24-monitor/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/25-context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/25-context" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/25-context/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/26-advcontext" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/26-advcontext" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/26-advcontext/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/27-workerPool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/27-workerPool" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/27-workerPool/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study1/28-net" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study1/28-net" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study1/28-net/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gostudy/study2/13-sync" />
-        <item itemvalue="Go Build.go build gostudy/study1/19-UserId" />
-        <item itemvalue="Go Build.go build gostudy/study2/7-os/8-os.Signal" />
-        <item itemvalue="Go Build.go build gostudy/study2/7-os/7-os.Mode" />
-        <item itemvalue="Go Test.Benchmark_JsonMarshal in gostudy/study1/17-serialization/msgpack (1)" />
+        <item itemvalue="Go Build.go build gostudy/study1/28-net" />
+        <item itemvalue="Go Build.go build gostudy/study1/27-workerPool" />
+        <item itemvalue="Go Build.go build gostudy/study1/26-advcontext" />
+        <item itemvalue="Go Build.go build gostudy/study1/25-context" />
+        <item itemvalue="Go Build.go build gostudy/study1/24-monitor" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +187,8 @@
     <MESSAGE value="weekend study" />
     <MESSAGE value="1 study" />
     <MESSAGE value="2 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 study" />
+    <MESSAGE value="3 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 study" />
   </component>
   <component name="VgoProject">
     <environment>
