@@ -46,7 +46,7 @@ import (
 //				fmt.Println(b,"滑稽2")
 //			}
 //		case <-time.After(time.Microsecond):
-//			println("end with timeout")
+//			println("end with clienttimeout")
 //			endCond = true
 //		}
 //	}
