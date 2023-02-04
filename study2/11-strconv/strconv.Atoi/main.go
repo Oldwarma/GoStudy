@@ -7,6 +7,7 @@ import (
 
 var st = "123456"
 
+//字符串转整数
 func main() {
 
 	m, _ := strconv.Atoi(st)
