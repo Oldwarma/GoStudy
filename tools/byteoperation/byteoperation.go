@@ -189,3 +189,16 @@ func RandMid() string {
 	result, _ := rand.Int(rand.Reader, big.NewInt(4294967295))
 	return result.String()
 }
+
+// 字符串转化为字符数组，不需要创建新的内存
+func StringToBytes(s string) []byte {
+	return *(*[]byte)(unsafe.Pointer(&struct {
+		string
+		Cap int
+	}{s, len(s)}))
+}
+
+// 字符数组转换为字符串，不需要创建新的内存
+func BytesToString(b []byte) string {
+	return *(*string)(unsafe.Pointer(&b))
+}

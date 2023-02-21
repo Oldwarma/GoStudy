@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment="monday study">
-      <change afterPath="$PROJECT_DIR$/datastuct/linkedList/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastuct/tree/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study1/14-reflect/reflect1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/11-strconv/strconv.Itoa/main.go" afterDir="false" />
+    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
+      <change afterPath="$PROJECT_DIR$/study2/14-runtime/runtime.caller/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/lib/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/lib/ter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/2-chanWorker/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/text1/cst/st.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/text1/go1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/text1/go2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/text2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/text3/mkfile.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study1/4-pointer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study1/4-pointer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/11-strconv/strconv.Atoi/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/11-strconv/strconv.Atoi/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +77,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.dep&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -86,59 +94,59 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync\sync.WaitGroup" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study2/1-fileTran">
-    <configuration name="go build gostudy/datastuct/linkedList" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/study3/2-chanWorker">
+    <configuration name="go build gostudy/study2/10-strings/strings.Index" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/datastuct/linkedList" />
+      <package value="gostudy/study2/10-strings/strings.Index" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/datastuct/linkedList/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study1/14-reflect/reflect1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study3/2-chanWorker" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study1/14-reflect/reflect1" />
+      <package value="gostudy/study3/2-chanWorker" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/14-reflect/reflect1/main.go" />
+      <filePath value="$PROJECT_DIR$/study3/2-chanWorker/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study1/32-icmp/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/text/text1/go1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study1/32-icmp/client" />
+      <package value="gostudy/text/text1/go1" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study1/32-icmp/client/main.go" />
+      <filePath value="$PROJECT_DIR$/text/text1/go1/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study2/1-fileTran" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="gostudy/study2/1-fileTran" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/1-fileTran/1-fileTranServer.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/11-strconv/strconv.Itoa" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/text/text2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/11-strconv/strconv.Itoa" />
+      <package value="gostudy/text/text2" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/11-strconv/strconv.Itoa/main.go" />
+      <filePath value="$PROJECT_DIR$/text/text2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/text/text3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/text/text3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/text/text3/mkfile.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gostudy/study2/1-fileTran" />
-        <item itemvalue="Go Build.go build gostudy/study1/14-reflect/reflect1" />
-        <item itemvalue="Go Build.go build gostudy/study2/11-strconv/strconv.Itoa" />
-        <item itemvalue="Go Build.go build gostudy/datastuct/linkedList" />
-        <item itemvalue="Go Build.go build gostudy/study1/32-icmp/client" />
+        <item itemvalue="Go Build.go build gostudy/study3/2-chanWorker" />
+        <item itemvalue="Go Build.go build gostudy/text/text3" />
+        <item itemvalue="Go Build.go build gostudy/study2/10-strings/strings.Index" />
+        <item itemvalue="Go Build.go build gostudy/text/text2" />
+        <item itemvalue="Go Build.go build gostudy/text/text1/go1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +175,8 @@
     <MESSAGE value="3 study" />
     <MESSAGE value="weekend study" />
     <MESSAGE value="monday study" />
-    <option name="LAST_COMMIT_MESSAGE" value="monday study" />
+    <MESSAGE value=" study" />
+    <option name="LAST_COMMIT_MESSAGE" value=" study" />
   </component>
   <component name="VgoProject">
     <environment>

@@ -5,14 +5,18 @@ import (
 	"strings"
 )
 
+var (
+	str = "21321321/31321/31321/"
+)
+
 func main() {
 	index()
 	fmt.Println(index2("/123/456/123456/", "/"))
 }
 
 func index() {
-	res := strings.Index("21321321/31321/31321/", "/")
-	fmt.Println(res)
+	res := strings.Index(str, "/")
+	fmt.Println(str[:res])
 }
 
 func index2(s, substr string) int {

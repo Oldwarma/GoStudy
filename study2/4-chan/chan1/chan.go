@@ -13,7 +13,13 @@ func main() {
 	go chan1()
 	go chan2()
 	go chan3()
-	for true {
+	go pro()
+	for {
+
+	}
+}
+func pro() {
+	for {
 		select {
 		case msg := <-ch:
 			fmt.Println(msg)
