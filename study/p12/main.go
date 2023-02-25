@@ -49,7 +49,7 @@ char * addX() {
 import "C"
 import (
 	"fmt"
-	//sc "golang.org/x/text/encoding/simplifiedchinese"
+	//sc "golang.org/x/example/encoding/simplifiedchinese"
 )
 
 //func CPtr2GoStr(str *C.char) string {

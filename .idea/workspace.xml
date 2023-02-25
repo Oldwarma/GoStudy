@@ -5,21 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
-      <change afterPath="$PROJECT_DIR$/study2/14-runtime/runtime.caller/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/lib/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/lib/ter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/1-codingfaster/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/2-chanWorker/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/text1/cst/st.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/text1/go1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/text1/go2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/text2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/text3/mkfile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e4/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Add/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Alignof/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Offsetof/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Sizeof/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.String/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.StringData/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/using/byte-string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/5-io/2-io.Reader/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/2-fileTranClient.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/4-chan/chan1/chan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/byteoperation/byteoperation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/p12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/p12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/text1/cst/st.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/cst/st.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/text1/go1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/go1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/text1/go2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/go2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/text2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/text3/mkfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e3/mkfile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/types/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/utils/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/utils/utils_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.18" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go.1.16/go1.20" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,6 +51,14 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study2/15-unsafe/unsafe.Alignof/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study2/15-unsafe/unsafe.Sizeof/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study2/15-unsafe/unsafe.String/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/study3/2-chanWorker/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tools/utils/utils.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,7 +93,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.dep&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -94,59 +110,59 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync\sync.WaitGroup" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study3/2-chanWorker">
-    <configuration name="go build gostudy/study2/10-strings/strings.Index" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/study2/15-unsafe/unsafe.String">
+    <configuration name="go build gostudy/example/e4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study2/10-strings/strings.Index" />
+      <package value="gostudy/example/e4" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/10-strings/strings.Index/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e4/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study3/2-chanWorker" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/15-unsafe/emaple" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/study3/2-chanWorker" />
+      <package value="gostudy/study2/15-unsafe/emaple" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study3/2-chanWorker/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/emaple/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/text/text1/go1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/15-unsafe/example" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/text/text1/go1" />
+      <package value="gostudy/study2/15-unsafe/example" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/text/text1/go1/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/example/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/text/text2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/15-unsafe/unsafe.String" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/text/text2" />
+      <package value="gostudy/study2/15-unsafe/unsafe.String" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/text/text2/main.go" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/unsafe.String/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/text/text3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/study2/15-unsafe/unsafe.StringData" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/text/text3" />
+      <package value="gostudy/study2/15-unsafe/unsafe.StringData" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/text/text3/mkfile.go" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/unsafe.StringData/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gostudy/study3/2-chanWorker" />
-        <item itemvalue="Go Build.go build gostudy/text/text3" />
-        <item itemvalue="Go Build.go build gostudy/study2/10-strings/strings.Index" />
-        <item itemvalue="Go Build.go build gostudy/text/text2" />
-        <item itemvalue="Go Build.go build gostudy/text/text1/go1" />
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/unsafe.String" />
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/unsafe.StringData" />
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/example" />
+        <item itemvalue="Go Build.go build gostudy/example/e4" />
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/emaple" />
       </list>
     </recent_temporary>
   </component>

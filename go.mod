@@ -1,6 +1,6 @@
 module gostudy
 
-go 1.18
+go 1.20
 
 require (
 	github.com/c4milo/unpackit v0.1.0

@@ -14,6 +14,7 @@ func main() {
 	tarNewReader()
 }
 
+// 带缓冲
 func newReader() {
 	file, err := os.Open(types.FilePath)
 	if err != nil {

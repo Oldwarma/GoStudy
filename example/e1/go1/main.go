@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	st "gostudy/text/text1/cst"
+	st "gostudy/example/e1/cst"
 	"time"
 )
 
