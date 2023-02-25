@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
-      <change afterPath="$PROJECT_DIR$/example/e4/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/example/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Add/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Alignof/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Offsetof/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.Sizeof/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.String/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/unsafe.StringData/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/using/byte-string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study2/5-io/2-io.Reader/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/example/e3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/p12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/p12/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/5-io/1-io.ReadFull/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/9-bufio/bufio.NewReader/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text1/cst/st.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/cst/st.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text1/go1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/go1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text1/go2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e1/go2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text3/mkfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e3/mkfile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/types/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/utils/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/utils/utils_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/15-unsafe/example/e2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/15-unsafe/example/e2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/15-unsafe/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/15-unsafe/types/type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,32 +84,14 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\3-jsonmapsturct" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoSrc\Github\GoStudy\study2\15-unsafe\example\e1" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\29-netWork\client1" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\28-net\net" />
       <recent name="E:\GoSrc\Github\GoStudy\study1\28-net" />
       <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync" />
-      <recent name="E:\GoSrc\Github\GoStudy\study2\13-sync\sync.WaitGroup" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study2/15-unsafe/unsafe.String">
-    <configuration name="go build gostudy/example/e4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/example/e4" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e4/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study2/15-unsafe/emaple" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study2/15-unsafe/emaple" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study2/15-unsafe/emaple/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gostudy/study2/15-unsafe/example/e3">
     <configuration name="go build gostudy/study2/15-unsafe/example" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -136,6 +99,24 @@
       <package value="gostudy/study2/15-unsafe/example" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/study2/15-unsafe/example/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study2/15-unsafe/example/e2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study2/15-unsafe/example/e2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/example/e2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study2/15-unsafe/example/e3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study2/15-unsafe/example/e3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study2/15-unsafe/example/e3/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build gostudy/study2/15-unsafe/unsafe.String" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -158,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/example/e3" />
+        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/example/e2" />
         <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/unsafe.String" />
         <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/unsafe.StringData" />
         <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/example" />
-        <item itemvalue="Go Build.go build gostudy/example/e4" />
-        <item itemvalue="Go Build.go build gostudy/study2/15-unsafe/emaple" />
       </list>
     </recent_temporary>
   </component>
