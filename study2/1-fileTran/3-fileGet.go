@@ -6,7 +6,7 @@ import (
 )
 
 func writeFile(s string) {
-	file, err := os.OpenFile("D://example.txt", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0777)
+	file, err := os.OpenFile("D://0-example.txt", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0777)
 	if err != nil {
 		fmt.Println("打开文件错误", err)
 	}

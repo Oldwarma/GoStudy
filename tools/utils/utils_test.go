@@ -36,7 +36,7 @@ func TestUnTarGzPack(t *testing.T) {
 }
 
 func TestCompress(t *testing.T) {
-	CompressOneFile("D:/cep/example", "D:\\cep\\11.tar.gz")
+	CompressOneFile("D:/cep/0-example", "D:\\cep\\11.tar.gz")
 }
 
 func TestGenerateArchiveFile(t *testing.T) {

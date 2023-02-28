@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
-      <change afterPath="$PROJECT_DIR$/study2/15-unsafe/example/e3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/0-example/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/15-unsafe/example/e2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/15-unsafe/example/e2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study2/15-unsafe/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/15-unsafe/types/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/p12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/p12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" beforeDir="false" afterPath="$PROJECT_DIR$/study2/1-fileTran/3-fileGet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/types/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/utils/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/utils/utils_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
