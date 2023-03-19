@@ -3,7 +3,7 @@ package main
 import "time"
 
 func main() {
-
+	time.After(time.Second * 10)
 	delay := time.NewTimer(time.Second * 10)
 	defer delay.Stop()
 	for {
