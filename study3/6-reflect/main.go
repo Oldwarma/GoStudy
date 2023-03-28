@@ -9,6 +9,9 @@ func main() {
 	//worker1()
 	worker2()
 	worker3()
+	for {
+
+	}
 }
 
 type Service struct {
