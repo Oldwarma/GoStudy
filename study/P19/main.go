@@ -10,8 +10,8 @@ import (
 //	"time"
 //)
 //
-//func main() {
-//	println("start main")
+//func e23() {
+//	println("start e23")
 //	cond1 := make(chan int)
 //	cond2 := make(chan uint64)
 //
@@ -50,7 +50,7 @@ import (
 //			endCond = true
 //		}
 //	}
-//	println("end main")
+//	println("end e23")
 //}
 
 //---------------------------------------------
@@ -64,7 +64,7 @@ type Student struct {
 //	cMap = make(map[int64]chan Student)
 //)
 //
-//func main()  {
+//func e23()  {
 //	defer func() {
 //		e := recover()
 //		if e != nil  {

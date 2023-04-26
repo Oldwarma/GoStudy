@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
-      <change afterPath="$PROJECT_DIR$/example/e10/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e11/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e12/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e13/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e14/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e15/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e16/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e17/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e5/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e6/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e7/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e8/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/e9/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e18/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e19/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e20/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e21/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e22/e23.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e23/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e23/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e24/e24.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e25/e25.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/P19/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/P19/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/P20/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/P20/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,59 +107,59 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\15-unsafe\example\e1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/example/e17">
-    <configuration name="go build gostudy/example/e12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/example/e23/client">
+    <configuration name="go build gostudy/example/e22" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e12" />
+      <package value="gostudy/example/e22" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e12/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e22/e23.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/example/e14" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/example/e23" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e14" />
+      <package value="gostudy/example/e23" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e14/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e23/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/example/e15" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/example/e23/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e15" />
+      <package value="gostudy/example/e23/client" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e15/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e23/client/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/example/e16" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/example/e24" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e16" />
+      <package value="gostudy/example/e24" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e16/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e24/e24.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/example/e17" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gostudy/example/e25" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e17" />
+      <package value="gostudy/example/e25" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e17/main.go" />
+      <filePath value="$PROJECT_DIR$/example/e25/e25.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gostudy/example/e17" />
-        <item itemvalue="Go Build.go build gostudy/example/e16" />
-        <item itemvalue="Go Build.go build gostudy/example/e15" />
-        <item itemvalue="Go Build.go build gostudy/example/e14" />
-        <item itemvalue="Go Build.go build gostudy/example/e12" />
+        <item itemvalue="Go Build.go build gostudy/example/e23/client" />
+        <item itemvalue="Go Build.go build gostudy/example/e23" />
+        <item itemvalue="Go Build.go build gostudy/example/e25" />
+        <item itemvalue="Go Build.go build gostudy/example/e24" />
+        <item itemvalue="Go Build.go build gostudy/example/e22" />
       </list>
     </recent_temporary>
   </component>

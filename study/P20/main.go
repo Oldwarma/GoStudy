@@ -11,7 +11,7 @@ import (
 //	"math/rand"
 //)
 //
-//func main()  {
+//func e23()  {
 //	ch := GenerateInt()
 //	for i := 0;i<100;i++ {
 //		fmt.Println(<- ch)
