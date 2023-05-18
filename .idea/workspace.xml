@@ -44,6 +44,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1684285878" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lin2" />
+                    <option name="lastUsedInstant" value="1684285877" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
@@ -90,7 +113,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -107,14 +130,13 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\15-unsafe\example\e1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study3/9-http">
-    <configuration name="go build gostudy/example/e23" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/example/e28">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/example/e23" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e23/main.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build gostudy/example/e23/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -135,6 +157,15 @@
       <filePath value="$PROJECT_DIR$/example/e26/e26.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gostudy/example/e28" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/example/e28" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/example/e28/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build gostudy/study3/8-webSocket/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -153,13 +184,22 @@
       <filePath value="$PROJECT_DIR$/study3/9-http/main.go" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/example/e28" />
         <item itemvalue="Go Build.go build gostudy/study3/9-http" />
         <item itemvalue="Go Build.go build gostudy/study3/8-webSocket/server" />
         <item itemvalue="Go Build.go build gostudy/example/e26" />
         <item itemvalue="Go Build.go build gostudy/example/e23/client" />
-        <item itemvalue="Go Build.go build gostudy/example/e23" />
       </list>
     </recent_temporary>
   </component>

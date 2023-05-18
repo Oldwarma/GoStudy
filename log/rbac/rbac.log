@@ -1,0 +1,5 @@
+2023/05/15 14:19:28.037 [I] [clog.go:68]  set ./log/rbac/rbac.log level[7] maxDays[388]
+2023/05/15 14:20:05.051 [I] [del_service.go:29]  LogsDelGoroutine at:2023-05-15 14:20:05 ed:2023-05-15 14:20:05
+2023/05/15 14:20:05.051 [I] [del_service.go:52]  TokenDelByTime at:2023-05-15 14:20:05 ed:2023-05-15 14:20:05
+2023/05/15 14:30:44.911 [I] [clog.go:68]  set ./log/rbac/rbac.log level[7] maxDays[388]
+2023/05/15 14:35:10.778 [I] [clog.go:68]  set ./log/rbac/rbac.log level[7] maxDays[388]

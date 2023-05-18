@@ -1,0 +1,8 @@
+2023/05/15 14:19:28.037 [I] [log.go:32]  set ./log/gq22156/gq22156.log level[7] maxDays[388]
+2023/05/15 14:19:28.103 [I] [app.go:214]  http server Running on http://:8080
+2023/05/15 14:19:51.624 [D] [router.go:969]  |            ::1|[43m 404 [0m|      503.4µs| nomatch|[44m GET     [0m /  
+2023/05/15 14:19:51.649 [D] [router.go:969]  |            ::1|[43m 404 [0m|        565µs| nomatch|[44m GET     [0m /favicon.ico
+2023/05/15 14:30:44.911 [I] [log.go:32]  set ./log/gq22156/gq22156.log level[7] maxDays[388]
+2023/05/15 14:30:44.994 [I] [app.go:214]  http server Running on http://:8080
+2023/05/15 14:35:10.778 [I] [log.go:32]  set ./log/gq22156/gq22156.log level[7] maxDays[388]
+2023/05/15 14:35:10.860 [I] [app.go:214]  http server Running on http://:8080

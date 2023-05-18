@@ -10,6 +10,8 @@ require (
 	github.com/gogf/gf v1.16.9
 	github.com/gogf/gf/v2 v2.2.6
 	github.com/google/uuid v1.3.0
+	github.com/gorilla/websocket v1.5.0
+	github.com/jinzhu/copier v0.3.5
 	github.com/jinzhu/gorm v1.9.16
 	github.com/tinylib/msgp v1.1.8
 	github.com/tjfoc/gmsm v1.4.1
@@ -26,17 +28,13 @@ require (
 require (
 	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28 // indirect
-	github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58 // indirect
 	github.com/dsnet/compress v0.0.1 // indirect
-	github.com/elastic/go-elasticsearch/v6 v6.8.5 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grokify/html-strip-tags-go v0.0.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
