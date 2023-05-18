@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"syscall/js"
 )
 
 func main() {
@@ -13,7 +12,7 @@ func main() {
 	c := make(chan struct{}, 0)
 
 	// 注册add函数
-	js.Global().Set("add", js.FuncOf(Add1))
+	//js.Global().Set("add", js.FuncOf(Add1))
 
 	<-c
 }
