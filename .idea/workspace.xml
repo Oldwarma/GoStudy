@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study" />
+    <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
+      <change afterPath="$PROJECT_DIR$/students.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/11-xinjian/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/12-image/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study3/13-excel/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Proto Template" />
+        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
@@ -34,7 +42,6 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
-    <option name="PATH_TO_GIT" value="E:\GIt\Git\bin\git.exe" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -113,7 +120,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -130,24 +137,7 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\15-unsafe\example\e1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/example/e28">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/example/e23/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/example/e23/client" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e23/client/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gostudy/study3/13-excel">
     <configuration name="go build gostudy/example/e26" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -164,6 +154,15 @@
       <package value="gostudy/example/e28" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/example/e28/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/study3/13-excel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/study3/13-excel" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/study3/13-excel/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build gostudy/study3/8-webSocket/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -184,22 +183,13 @@
       <filePath value="$PROJECT_DIR$/study3/9-http/main.go" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/study3/13-excel" />
         <item itemvalue="Go Build.go build gostudy/example/e28" />
         <item itemvalue="Go Build.go build gostudy/study3/9-http" />
         <item itemvalue="Go Build.go build gostudy/study3/8-webSocket/server" />
         <item itemvalue="Go Build.go build gostudy/example/e26" />
-        <item itemvalue="Go Build.go build gostudy/example/e23/client" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +202,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/lin2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

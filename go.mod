@@ -3,6 +3,7 @@ module gostudy
 go 1.19
 
 require (
+	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/astaxie/beego v1.12.3
 	github.com/c4milo/unpackit v0.1.0
 	github.com/go-sql-driver/mysql v1.7.0
@@ -44,6 +45,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
