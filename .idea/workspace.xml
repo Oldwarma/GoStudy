@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc06f5fd-b6f6-42e5-b295-8c1a02bd278e" name="Changes" comment=" study">
-      <change afterPath="$PROJECT_DIR$/students.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/11-xinjian/struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/12-image/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study3/13-excel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e29/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/e30/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/e27/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/e27/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +134,14 @@
       <recent name="E:\GoSrc\Github\GoStudy\study2\15-unsafe\example\e1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gostudy/study3/13-excel">
-    <configuration name="go build gostudy/example/e26" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gostudy/example/e30">
+    <configuration name="go build gostudy/example/e27" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gostudy/example/e26" />
+      <package value="gostudy/example/e27" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/example/e26/e26.go" />
+      <filePath value="$PROJECT_DIR$/example/e27/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build gostudy/example/e28" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -156,6 +153,24 @@
       <filePath value="$PROJECT_DIR$/example/e28/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gostudy/example/e29" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/example/e29" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/example/e29/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gostudy/example/e30" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gostudy/example/e30" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/example/e30/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build gostudy/study3/13-excel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -165,31 +180,13 @@
       <filePath value="$PROJECT_DIR$/study3/13-excel/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gostudy/study3/8-webSocket/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study3/8-webSocket/server" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study3/8-webSocket/server/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gostudy/study3/9-http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="gostudy/study3/9-http" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/study3/9-http/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gostudy/example/e30" />
+        <item itemvalue="Go Build.go build gostudy/example/e29" />
+        <item itemvalue="Go Build.go build gostudy/example/e27" />
         <item itemvalue="Go Build.go build gostudy/study3/13-excel" />
         <item itemvalue="Go Build.go build gostudy/example/e28" />
-        <item itemvalue="Go Build.go build gostudy/study3/9-http" />
-        <item itemvalue="Go Build.go build gostudy/study3/8-webSocket/server" />
-        <item itemvalue="Go Build.go build gostudy/example/e26" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +205,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/lin2" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
