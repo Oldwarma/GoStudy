@@ -18,6 +18,8 @@ func main() {
 	<-c
 	println("NUM:", runtime.NumGoroutine())
 
+	println("NUM:", runtime.NumGoroutine())
+
 	for v := range ci {
 		println(v)
 	}
